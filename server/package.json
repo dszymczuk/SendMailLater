@@ -1,0 +1,18 @@
+{
+  "name": "sendmaillater-server",
+  "version": "0.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "node ./node_modules/eslint/bin/eslint.js .",
+    "lint:fix": "node ./node_modules/eslint/bin/eslint.js --fix ."
+  },
+  "homepage": "https://github.com/dszymczuk/SendMailLater#readme",
+  "dependencies": {
+    "express": "^4.15.4"
+  },
+  "devDependencies": {
+    "eslint": "^4.5.0"
+  }
+}
