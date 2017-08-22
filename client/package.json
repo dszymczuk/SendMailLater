@@ -16,6 +16,7 @@
     "lint:fix": "node ./node_modules/eslint/bin/eslint.js --fix --ignore-pattern build ."
   },
   "devDependencies": {
+    "eslint": "^4.5.0",
     "eslint-plugin-react": "^7.3.0"
   }
 }
